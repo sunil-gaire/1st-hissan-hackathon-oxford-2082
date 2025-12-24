@@ -9,7 +9,7 @@ const HomeNav = () => {
   const links = ["Dashboard", "Doctors", "Articles","CheckUp", "ContactUs"];
 
   return (
-    <nav className="fixed top-0 z-999 w-full">
+    <nav className="fixed top-0 z-[999] w-full">
       <div className="mx-auto py-4 px-6 flex items-center justify-between
                       backdrop-blur-xl bg-white/30 border border-white/20 shadow-lg rounded-b-2xl">
     
