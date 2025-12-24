@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function LandingNav() {
     const navigate = useNavigate()
     return ( 
-        <nav className="fixed top-0 bg-white/30 backdrop-blur-md w-full shadow-xl border border-gray-200">
+        <nav className="z-[999] fixed top-0 bg-white/30 backdrop-blur-md w-full shadow-xl border border-gray-200">
             <div className="mx-auto py-4 px-2 flex items-center justify-between">
 <div className="flex gap-2 items-center cursor-pointer" onClick={()=>navigate('/')}>
 <div className="bg-teal-500 rounded-full w-10 h-10 flex items-center justify-center text-white text-xl  shadow-md">S</div>
